@@ -9,7 +9,7 @@ const destination_model = new Schema({
     type : Schema.Types.ObjectId,
     ref : "place"
   }],
-  duration : String,
+duration : String,
   dificulty : String,
   age_group : String
 });

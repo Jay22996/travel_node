@@ -17,7 +17,7 @@ const place_model = new Schema({
     type : Schema.Types.ObjectId,
     ref : "activity"
   }],
-  address : {String},
-  rating : {Number}
+  rating : Number,
+  day : Number
 });
 module.exports = mongoose.model('place', place_model); 

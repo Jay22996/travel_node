@@ -12,7 +12,7 @@ var app = express();
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://makwanarahul2580:cHReUX3Gs3o7I3lQ@cluster0.oa0ga3l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb://127.0.0.1:27017/travel_final')
   .then(() => console.log('Connected!'));
 
 // view engine setup
