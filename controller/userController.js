@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 const nodemailer = require("nodemailer");
 var jwt = require('jsonwebtoken');
 
-// ------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------
 
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
